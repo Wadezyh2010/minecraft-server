@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>无铭服务器</title>
+    <link rel="icon" href="./icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="bg-white">
+    <nav class="fixed w-full z-50 glass-nav">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-['Pacifico'] text-primary">无铭</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="text-gray-700 hover:text-primary">特色</a>
+                    <a href="#ip" class="text-gray-700 hover:text-primary">服务器IP</a>
+                    <a href="#advantages" class="text-gray-700 hover:text-primary">优势</a>
+                    <a href="#rules" class="text-gray-700 hover:text-primary">规则</a>
+                    <a href="#team" class="text-gray-700 hover:text-primary">【团队】</a>
+                    <a href="#faq" class="text-gray-700 hover:text-primary">常见问题</a>
+                </div>
+                <a href="#features" class="!rounded-button bg-primary text-white px-6 py-2 whitespace-nowrap">立即加入</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section h-screen flex items-center justify-center text-center text-white"
+        style="background-image: url('./banner.png');">
+        <div class="max-w-4xl mx-auto px-4">
+            <h1 class="text-6xl font-bold mb-6">无铭服务器</h1>
+            <p class="text-xl mb-8">生电和友谊是创造的第一生产力！ QQ 1017047354              整合包（用或不用随心）：https://wwvs.lanzoue.com/iVZbA2pwcirc</p>
+            <a href="#features"
+                class="!rounded-button bg-primary text-white px-8 py-3 text-lg whitespace-nowrap">开启冒险</a>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">服务器特色</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="feature-card bg-white p-8 rounded-lg shadow-lg">
+                    <img src="./res.jpg" class="w-full h-48 object-cover rounded-lg mb-6" alt="特色功能">
+                    <h3 class="text-xl font-bold mb-4">生电特性</h3>
+                    <p class="text-gray-600">拥有完整生电特性，推客入和地毯都可用。</p>
+                </div>
+                <div class="feature-card bg-white p-8 rounded-lg shadow-lg">
+                    <img src="./home.png" class="w-full h-48 object-cover rounded-lg mb-6" alt="特色功能">
+                    <h3 class="text-xl font-bold mb-4">足够纯净</h3>
+                    <p class="text-gray-600">不加任何冗余，纯净但好玩的生存服。</p>
+                </div>
+                <div class="feature-card bg-white p-8 rounded-lg shadow-lg">
+                    <img src="./geyser.png" class="w-full h-48 object-cover rounded-lg mb-6" alt="特色功能">
+                    <h3 class="text-xl font-bold mb-4">皮肤自由</h3>
+                    <p class="text-gray-600">支持各种皮肤加载器，不再遇到官方黑曼巴。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ip">
+        <div class="bg-primary/5 px-4 text-center py-20">
+            <h2 class="text-4xl font-bold mb-8">服务器地址</h2>
+            <div class="inline-flex items-center gap-4 bg-white px-8 py-4 rounded-lg shadow-sm">
+                <span id="ip-text" class="text-2xl font-mono">xm.rainplay.cn:46090</span>
+                <button id="copy-ip"
+                    class="px-4 py-2 bg-primary text-white !rounded-button hover:bg-primary/90 whitespace-nowrap">
+                    <i class="far fa-copy mr-2"></i>复制
+                </button>
+            </div>
+            <p class="mt-6 text-gray-600">支持 Java 版本 1.20.4 fabric，自动识别客户端版本</p>
+        </div>
+    </section>
+
+    <section id="advantages" class="py-12 bg-gray-50">
+        <div class="max-w-[1440px] mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">为什么选择我们？</h2>
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-4">
+                <div class="text-center">
+                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-server text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">高性能服务器</h3>
+                    <p class="text-gray-600">采用P8275cl CPU，本服务器由雨云强势驱动！_</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">【完善的防护系统】</h3>
+                    <p class="text-gray-600">【先进】的反作弊系统，，保护每位玩家的游戏体验</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-headset text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">24/7 在线支持</h3>
+                    <p class="text-gray-600">专业的客服团队全天候在线，随时解答您的问题</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-sync text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">定期更新内容</h3>
+                    <p class="text-gray-600">官方推荐整合包定时更新</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="rules" class="py-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">服务器规则</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-4">
+                        <i class="fas fa-gavel text-primary mr-2"></i>
+                        基本守则
+                    </h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>不建议使用外挂进行PVP</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>禁止恶意破坏他人建筑及盗窃</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>禁止发布违规内容</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-4">
+                        <i class="fas fa-handshake text-primary mr-2"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">管理团队</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="team-member bg-white p-6 rounded-lg shadow-lg text-center relative">
+                    <img src="./notch.png" class="w-32 h-32 rounded-full mx-auto mb-4" alt="管理员">
+                    <h3 class="text-xl font-bold">Hacker_Zhang</h3>
+                    <p class="text-gray-600">服务器主理人</p>
+                </div>
+                <div class="team-member bg-white p-6 rounded-lg shadow-lg text-center relative">
+                    <img src="./Dream.png" class="w-32 h-32 rounded-full mx-auto mb-4" alt="管理员">
+                    <h3 class="text-xl font-bold">Notch</h3>
+                    <p class="text-gray-600">社区管理</p>
+                </div>
+                <div class="team-member bg-white p-6 rounded-lg shadow-lg text-center relative">
+                    <img src="./Creeper.png" class="w-32 h-32 rounded-full mx-auto mb-4" alt="管理员">
+                    <h3 class="text-xl font-bold">Creeper</h3>
+                    <p class="text-gray-600">技术总监</p>
+                </div>
+                <div class="team-member bg-white p-6 rounded-lg shadow-lg text-center relative">
+                    <img src="./Steve.png" class="w-32 h-32 rounded-full mx-auto mb-4" alt="管理员">
+                    <h3 class="text-xl font-bold">Steve</h3>
+                    <p class="text-gray-600">活动策划</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16">常见问题</h2>
+            <div class="space-y-4">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">如何加入服务器？</h3>
+                    <p class="text-gray-600">复制服务器IP地址，在 Minecraft 多人游戏中添加服务器即可。支持 Java 版 1.20.4fabric版本。</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">服务器是否需要正版？</h3>
+                    <p class="text-gray-600">我们同时支持正版和离线模式登录，但推荐使用正版账号以获得最佳游戏体验。</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">遇到问题如何寻求帮助？</h3>
+                    <p class="text-gray-600">你可以在游戏内使用 /help 指令寻求帮助，或加入我们的官方QQ群：123456789 获取支持。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <span class="text-2xl font-['Pacifico'] text-primary">无铭服务器</span>
+                    <p class="mt-4 text-gray-400">创造属于你的 Minecraft 冒险</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">快速链接</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#features" class="text-gray-400 hover:text-white">服务器特色</a></li>
+                        <li><a href="#rules" class="text-gray-400 hover:text-white">服务器规则</a></li>
+                        <li><a href="#team" class="text-gray-400 hover:text-white">管理团队</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">联系我们</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400">QQ群：1017047354</li>
+                        <li class="text-gray-400">邮箱：Wadezyh2010@outlook.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">关注我们</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-qq text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-weixin text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-bilibili text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2025 无铭服务器. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop"
+        class="fixed bottom-8 right-8 bg-primary text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 transition-opacity duration-300">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+
+</html>
