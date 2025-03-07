@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --primary: #007AFF;
+        --secondary: #5856D6;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply bg-primary hover:bg-primary/90;
+    }
+}
+
+body {
+    min-height: 1024px;
+}
+
+.glass-nav {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.team-member:hover .member-info {
+    opacity: 1;
+}
+
+.scroll-smooth {
+    scroll-behavior: smooth;
+}
